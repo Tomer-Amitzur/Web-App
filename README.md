@@ -1,3 +1,5 @@
+![](home.jpeg)
+
 ## Project Status
 
 This mini project was done by me -Tomer Amitzur- for two weeks of self-learning from a zero level of knowledge at Frontend.
