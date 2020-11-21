@@ -25,5 +25,5 @@ npm start
 
 ``` bash
 # run server
-nod server.js
+node server.js
 ```
