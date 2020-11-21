@@ -1,23 +1,27 @@
 <template>
   <div class="announcements">
-    <b-modal ref="my-component">
-      <grade_sheet></grade_sheet>
-    </b-modal>
 
-    <b-card v-on:click="this.$refs.my-component.show();" :title="title">
+    <b-card v-on:click="currentComponent = grade_sheet;" title="dkknnfkdnvkdn">
       <b-card-text>{{ shortenedContent }}</b-card-text>
     </b-card>
+
+    <component v-bind:is="currentComponent"></component>
   </div>
 </template>
 
 <script>
   import axios from 'axios';
+  import grade_sheet from '../components/grade_sheet.vue';
 
   export default {
     name: 'announcements',
     props: ['username'],
+    components: {
+      grade_sheet,
+    },
     data() {
       return {
+        currentComponent: '',
         title: 'חלוקת מתנות - אגודת הסטודנטים'
       };
     },

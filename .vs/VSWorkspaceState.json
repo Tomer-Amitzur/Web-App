@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\components",
+    "\\src\\views"
   ],
-  "SelectedNode": "\\config",
+  "SelectedNode": "\\src\\components\\grade_sheet.vue",
   "PreviewInSolutionExplorer": false
 }
