@@ -1,4 +1,4 @@
-![](home.jpeg)
+![](home.png)
 
 ## Project Status
 
